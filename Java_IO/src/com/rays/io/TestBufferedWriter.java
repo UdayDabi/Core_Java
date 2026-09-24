@@ -7,7 +7,7 @@ public class TestBufferedWriter {
 
 	public static void main(String[] args) throws Exception {
 
-		BufferedWriter file = new BufferedWriter(new FileWriter("D://IO//Hello.java"));
+		BufferedWriter file = new  BufferedWriter(new FileWriter("D://IO//Hello.java"));
 
 		file.write("public class Hello {");
 		file.newLine();

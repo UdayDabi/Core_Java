@@ -29,9 +29,10 @@ public class TestIterator {
 		System.out.println("----Iterator----");
 
 		Iterator it = list.iterator();
+		
 
 		while (it.hasNext()) {
-			// it.remove(); // java.lang.IllegalStateException
+//			it.remove(); // java.lang.IllegalStateException
 			Object o = it.next();
 			System.out.println("elements: " + o);
 			it.remove(); // remove from collection

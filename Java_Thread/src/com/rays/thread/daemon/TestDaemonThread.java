@@ -6,7 +6,7 @@ public class TestDaemonThread {
 
 		BackgroundThread t1 = new BackgroundThread("daemon thread");
 
-		//t1.setDaemon(true);
+		t1.setDaemon(true);
 
 		t1.start();
 

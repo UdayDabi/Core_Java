@@ -15,7 +15,8 @@ public class TestScanner {
 		int b = sc.nextInt();
 
 		System.out.println("your first int is: " + a);
-		System.out.println("your second int is: " + b);
+		System.out.println("your second int is: " + b
+				);
 
 		System.out.println("select your one opr....(-, +, *, /, %)");
 		String opr = sc.next();

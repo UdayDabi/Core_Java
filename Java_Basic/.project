@@ -3,8 +3,21 @@
 	<name>Java_Basic</name>
 	<comment></comment>
 	<projects>
+		<project>Core_Stream</project>
+		<project>Java_Collection</project>
+		<project>Java_Exception</project>
+		<project>Java_IO</project>
+		<project>Java_OOP</project>
+		<project>Java_Stream</project>
+		<project>Java_Thread</project>
+		<project>Java8_features</project>
 	</projects>
 	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
@@ -13,5 +26,6 @@
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 	</natures>
 </projectDescription>

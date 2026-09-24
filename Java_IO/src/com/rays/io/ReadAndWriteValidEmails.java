@@ -19,7 +19,7 @@ public class ReadAndWriteValidEmails {
 
 		while (email != null) {
 
-			if (email.endsWith("@gmail.com")) {
+			if (email.endsWith("@icloud.com")) {
 				System.out.println(email);
 				bw.write(email);
 				bw.newLine();

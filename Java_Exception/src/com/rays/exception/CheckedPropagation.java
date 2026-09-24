@@ -18,7 +18,7 @@ public class CheckedPropagation {
 		son();
 	}
 	
-	public static void son() throws Exception {
+	public static void son() 	throws Exception {
 		throw new Exception("make a mistake");
 	}
 

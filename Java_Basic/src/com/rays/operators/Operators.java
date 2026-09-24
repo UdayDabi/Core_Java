@@ -1,4 +1,4 @@
-package com.rays.javabasic;
+package com.rays.operators;
 
 public class Operators {
 

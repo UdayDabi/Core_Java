@@ -12,23 +12,4 @@ public class StringReverse {
 
 	}
 
-
-
-	
-
-        // String name = "vijay dinanath chouhan";
-        // String[] words = name.split(" ");   // ["vijay", "dinanath", "chouhan"]
-
-        // for (String word : words) {
-        //     String reversedWord = "";
-
-        //     for (int i = 0; i < word.length(); i++) {
-        //         reversedWord = word.charAt(i) + reversedWord;
-        //     }
-
-        //     System.out.print(reversedWord + " ");
-        // }
-    
-}
-
 }

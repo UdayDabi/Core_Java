@@ -31,8 +31,8 @@ public class TestCollectionMethod {
 		System.out.println("c2: " + c2);
 		System.out.println("c2 size: " + c2.size());
 
-		System.out.println("------");
-		System.out.println(c1.containsAll(c2));
+	System.out.println("------");
+	System.out.println(c1.containsAll(c2));
 		c1.addAll(c2);
 		System.out.println(c1.containsAll(c2));
 		System.out.println("c1 after addAll c2: " + c1);

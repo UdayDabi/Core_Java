@@ -1,6 +1,7 @@
 package com.rays.date;
 
 import java.util.Calendar;
+
 import java.util.Date;
 
 public class Maintainance {
@@ -8,7 +9,7 @@ public class Maintainance {
 
 		Calendar cal = Calendar.getInstance();
 
-		for (int i = 1; i <= 12; i++) {
+		for (int i = 1; i <= 24; i++) {
 
 			cal.add(Calendar.DATE, 30);
 

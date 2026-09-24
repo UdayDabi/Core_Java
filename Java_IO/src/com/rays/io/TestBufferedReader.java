@@ -7,7 +7,7 @@ public class TestBufferedReader {
 	
 	public static void main(String[] args) throws Exception {
 
-		BufferedReader file = new BufferedReader(new FileReader("D://IO//Hello.java"));
+		BufferedReader file =  new BufferedReader(new FileReader("D://IO//Hello.java"));
 
 		String line = file.readLine();
 

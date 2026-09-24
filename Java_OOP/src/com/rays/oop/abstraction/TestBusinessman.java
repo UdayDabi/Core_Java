@@ -10,16 +10,16 @@ public class TestBusinessman {
 //		r.donation();
 //		r.party();
 //		
-//		SocialWorker s = new Businessman();
-//		s.helpToOther();
+		SocialWorker s = new Businessman();
+		s.helpToOther();
 		
-		Businessman b = new Businessman();
-		
-		b.earnMoney();
-		b.donation();
-		b.party();
-		b.helpToOther();
-		
+//		Businessman b = new Businessman();
+//		
+//		b.earnMoney();
+//		b.donation();
+//		b.party();
+//		b.helpToOther();
+//		
 		
 		
 	}

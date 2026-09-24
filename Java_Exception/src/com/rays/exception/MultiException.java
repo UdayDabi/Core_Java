@@ -12,6 +12,7 @@ public class MultiException {
 		} catch (NullPointerException e) {
 			System.out.println("exception1: " + e.getMessage());
 		} catch(IndexOutOfBoundsException e) {
+			e.printStackTrace();
 			System.out.println("exception2: " + e.getMessage());
 		}
 

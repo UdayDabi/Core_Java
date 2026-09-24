@@ -11,7 +11,7 @@ public class TestTimePeriod {
 
 		System.out.println("today's date: " + todayDate);
 
-		LocalDate birthDate = LocalDate.of(2001, 01, 25);
+		LocalDate birthDate = LocalDate.of(2005, 10, 30);
 
 		System.out.println("your birth date: " + birthDate);
 

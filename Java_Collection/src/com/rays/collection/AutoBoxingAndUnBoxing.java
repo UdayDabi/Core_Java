@@ -5,8 +5,7 @@ public class AutoBoxingAndUnBoxing {
 	public static void main(String[] args) {
 
 		int a = 5;
-		// Integer b = new Integer(a); //old AutoBoxing
-		Integer b = a; // new AutoBoxing
+		 Integer b = new Integer(a); //old AutoBoxing
 
 		int k = b; // UnBoxing
 

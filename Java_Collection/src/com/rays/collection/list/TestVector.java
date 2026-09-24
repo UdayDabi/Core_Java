@@ -14,6 +14,7 @@ public class TestVector {
 		v.addElement("Ram");
 		v.addElement(45);
 		
+		System.out.println(v);
 		System.out.println(v.elementAt(1));
 		System.out.println(v.get(1));
 

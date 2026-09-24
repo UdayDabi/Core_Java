@@ -8,7 +8,7 @@ public class PatentCatchBlock {
 
 		try {
 			System.out.println(name.length()); // NullPointerException
-			System.out.println(name.charAt(4)); // IndexOutOfBound
+			System.out.println(name.charAt(8)); // IndexOutOfBound
 		} catch (Exception e) {
 			System.out.println("exception: " + e.getMessage());
 		} finally {

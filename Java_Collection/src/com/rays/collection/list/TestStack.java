@@ -16,8 +16,15 @@ public class TestStack {
 		System.out.println("stack: " + s);
 		System.out.println(s.peek());
 		System.out.println("stack: " + s);
+		
+
 		System.out.println(s.pop());
 		System.out.println("stack: " + s);
+		System.out.println(s.pop());
+		System.out.println("stack: " + s);
+		System.out.println(s.peek());
+
+
 
 	}
 

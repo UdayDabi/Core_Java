@@ -1,8 +1,14 @@
 package com.rays.map;
 
 import java.util.Hashtable;
+
+
 import java.util.Map;
 
+//1. Hashtable does not contain duplicate key
+//2. Hashtable does not contain null key
+//3. Hashtable does not contain null value
+//5. not maintain order
 public class TestHashTable {
 
 	public static void main(String[] args) {
@@ -16,19 +22,19 @@ public class TestHashTable {
 		m.put("five", 5); // five = 5
 
 		System.out.println(m);
-		System.out.println(m.get("two"));
-		System.out.println("six key: " + m.containsKey("six")); // containsKey check key members
-		System.out.println("five key: " + m.containsKey("five"));
-		System.out.println("6 value: " + m.containsValue(6)); // containsValue check value members
-		System.out.println("5 value: " + m.containsValue(5));
-		System.out.println("------------");
-		System.out.println(m.keySet());
-		System.out.println(m.values());
-		System.out.println(m.entrySet());
-		System.out.println("----------------");
+//		System.out.println(m.get("two"));
+//		System.out.println("six key: " + m.containsKey("six")); // containsKey check key members
+//		System.out.println("five key: " + m.containsKey("five"));
+//		System.out.println("6 value: " + m.containsValue(6)); // containsValue check value members
+//		System.out.println("5 value: " + m.containsValue(5));
+////		System.out.println("------------");
+//		System.out.println(m.keySet());
+//		System.out.println(m.values());
+//		System.out.println(m.entrySet());
+////		System.out.println("----------------");
 		System.out.println(m.remove("five"));
 		System.out.println(m);
-		m.clear();
+	m.clear();
 		System.out.println(m);
 
 	}

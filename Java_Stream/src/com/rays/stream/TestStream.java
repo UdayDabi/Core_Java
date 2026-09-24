@@ -16,24 +16,24 @@ public class TestStream {
 		list.add("Kattappa");
 		list.add("Kattappa");
 		list.add("Kattappa");
-		list.add("Uday");
+		list.add("Ram");
 
 		list.forEach(System.out::println);
 		System.out.println("--------------");
 		list.stream().sorted().forEach(System.out::println);
-		System.out.println("--------------");
-		list.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
-
+//		System.out.println("--------------");
+//		list.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
+////
 		System.out.println("---------");
 		list.stream().sorted().distinct().forEach(System.out::println);
-
+////
 		System.out.println("-----map method------");
 		list.stream().map(e -> e.toLowerCase()).distinct().forEach(System.out::println);
 		System.out.println("-----------------");
 		list.stream().map(e -> e.toUpperCase()).forEach(System.out::println);
-
+////
 		System.out.println("-----fileter method-----");
-		list.stream().filter(e -> e.startsWith("k")).distinct().forEach(System.out::println);
+		list.stream().filter(e -> e.endsWith("a")).distinct().forEach(System.out::println);
 
 	}
 

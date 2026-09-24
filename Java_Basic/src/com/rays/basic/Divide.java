@@ -8,9 +8,7 @@ public class Divide {
 		int b = 6;
 
 		int c = b / a;
-		int r = b % a;
-		System.out.println("div: " + c);
-		System.out.println("r: " + r);
+		System.out.println("r: " + c);
 
 	}
 

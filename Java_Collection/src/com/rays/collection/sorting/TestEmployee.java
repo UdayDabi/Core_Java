@@ -20,20 +20,20 @@ public class TestEmployee {
 		list.add(e3);
 		list.add(e4);
 		list.add(e5);
-		
+
 		System.out.println(list);
-		
+
 		System.out.println("--------");
-		
-		for(Object o : list) {
+
+		for (Object o : list) {
 			System.out.println(o);
 		}
-		
+
 		System.out.println("--------");
-		
+//		
 		Iterator it = list.iterator();
-		
-		while(it.hasNext()) {
+//		
+		while (it.hasNext()) {
 			Object o = it.next();
 			System.out.println(o);
 		}

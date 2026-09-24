@@ -21,10 +21,10 @@ public class TestFailFast {
 		System.out.println("list: " + list);
 
 		System.out.println("----Iterator----");
-
+//
 		Iterator it = list.iterator();
-
-		list.add("Sita"); // Fail Fast
+//
+		//list.add("Sita"); // Fail Fast
 
 		while (it.hasNext()) {
 			// it.remove(); // java.lang.IllegalStateException
@@ -34,7 +34,7 @@ public class TestFailFast {
 		}
 
 		System.out.println("list: " + list);
-		
+//		
 		list.add("Sita");
 		System.out.println("list: " + list);
 

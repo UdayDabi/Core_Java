@@ -7,8 +7,9 @@ public class HelloWhileLoop {
 		int i = 1;
 
 		while (i < 6) {
-			System.out.println(i + "basanti nach rahi hai");
+			System.out.println(i + " basanti nach rahi hai");
 			i++;
+
 		}
 
 	}

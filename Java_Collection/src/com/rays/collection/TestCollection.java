@@ -1,6 +1,7 @@
 package com.rays.collection;
 
 import java.util.ArrayList;
+
 import java.util.Collection;
 
 public class TestCollection {
@@ -17,13 +18,13 @@ public class TestCollection {
 
 		System.out.println(c);
 		System.out.println("size of c: " + c.size());
-
+//
 		System.out.println("---------");
-
+//
 		for (Object o : c) {
 			System.out.println(o);
 		}
-
+//
 		System.out.println("--------");
 		System.out.println(c.contains(87)); // membership checkingd
 		System.out.println(c.contains('a'));
@@ -34,5 +35,4 @@ public class TestCollection {
 		System.out.println("size of c: " + c.size());
 
 	}
-
 }

@@ -15,12 +15,13 @@ public class StreamHighestSalary {
 		list.add(2000);
 		list.add(4000);
 		list.add(3000);
-
-		System.out.println("---first largest salary---");
-		list.stream().distinct().sorted(Collections.reverseOrder()).limit(1).forEach(System.out::println);
-		
+		System.out.println(list);
+//
+//		System.out.println("---first largest salary---");
+		//list.stream().distinct().sorted(Collections.reverseOrder()).limit(1).forEach(System.out::println);
+////
 		System.out.println("---second largest salary---");
-		list.stream().distinct().sorted(Collections.reverseOrder()).skip(1).limit(1).forEach(System.out::println);
+		list.stream().distinct().sorted(Collections.reverseOrder()).skip(1).limit(2).forEach(System.out::println);
 
 	}
 

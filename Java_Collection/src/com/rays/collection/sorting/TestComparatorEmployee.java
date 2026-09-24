@@ -24,22 +24,22 @@ public class TestComparatorEmployee {
 		list.forEach(System.out::println);
 
 		System.out.println("---sort by name---");
-
+//
 		OrderByName byName = new OrderByName();
 		Collections.sort(list, byName);
 		list.forEach(System.out::println);
-
-		System.out.println("---sort by id---");
-
-		OrderById byId = new OrderById();
-		Collections.sort(list, byId);
-		list.forEach(System.out::println);
-
-		System.out.println("---sort by salary---");
-
-		OrderBySalary bySalary = new OrderBySalary();
-		Collections.sort(list, bySalary);
-		list.forEach(System.out::println);
+//
+//		System.out.println("---sort by id---");
+//
+//		OrderById byId = new OrderById();
+//		Collections.sort(list, byId);
+//		list.forEach(System.out::println);
+//
+//		System.out.println("---sort by salary---");
+//
+//		OrderBySalary bySalary = new OrderBySalary();
+//		Collections.sort(list, bySalary);
+//		list.forEach(System.out::println);
 
 	}
 

@@ -9,8 +9,8 @@ public class WriteTextFile {
 		// FileWriter file = new FileWriter("D://IO//Sun.txt");
 		FileWriter file = new FileWriter("D://IO//Sun.txt", true);
 
-		file.write(" Hello Rays");
-
+		file.write("Hello Rays How are you");
+		
 		System.out.println("text data write successfully");
 
 		file.close();

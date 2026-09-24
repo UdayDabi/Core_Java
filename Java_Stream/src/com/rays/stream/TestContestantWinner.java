@@ -18,28 +18,31 @@ public class TestContestantWinner {
 		list.add(new Contestant("Pappu", "6585898587"));
 		list.add(new Contestant("invalidNo", "78858"));
 
+//		list.forEach(System.out::println);
+
 		// get phoneNo
-		list.stream().map(e -> e.phoneNo).forEach(System.out::println);
+		//list.stream().map(e -> e.phoneNo).forEach(System.out::println);
 
-		System.out.println("--------------");
-
+//	System.out.println("--------------");
+//
 		// get valid phoneNo
 		list.stream().map(e -> e.phoneNo).filter(e -> e.length() == 10).forEach(System.out::println);
-
+//
 		System.out.println("--------------");
-
-		// remove duplicate phoneNo
+//
+//		// remove duplicate phoneNo
 		list.stream().map(e -> e.phoneNo).filter(e -> e.length() == 10).distinct().forEach(System.out::println);
-		
+//
 		System.out.println("--------------");
-		
-		// shuffle phoneNo
+//
+//		// shuffle phoneNo
 		list.stream().map(e -> e.phoneNo).filter(e -> e.length() == 10).distinct()
 				.collect(Collectors.collectingAndThen(Collectors.toList(), e -> {
-					Collections.shuffle(e);
-					return e.stream();
-				})).limit(3).forEach(System.out::println);
+				Collections.shuffle(e);
+				return e.stream();
+		})).limit(1).forEach(System.out::println);
+
+//	}
 
 	}
-
 }
