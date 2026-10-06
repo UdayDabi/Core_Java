@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class LargestNoIntArray {
 
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		int[] intArray = { 5, 10, 15, 6, 20, 14 };

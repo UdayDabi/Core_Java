@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class FibonacciSeries {
 
-	// anshul
+	// uday  Dabi
 	public static void main(String[] args) {
 		int a = 0;
 		int b = 1;

@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class BubbleShorting {
 
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		int[] num = { 30, 20, 40, 10, 50, 60 };

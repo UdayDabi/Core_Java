@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class ReversDigit {
 
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		int num = 132;

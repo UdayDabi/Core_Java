@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class FactorialNo {
 
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		int fact = 1;

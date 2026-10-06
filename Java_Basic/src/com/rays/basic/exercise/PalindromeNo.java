@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class PalindromeNo {
 
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		int num = 131;

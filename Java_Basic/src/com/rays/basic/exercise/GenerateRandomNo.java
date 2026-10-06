@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class GenerateRandomNo {
 
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		Random r = new Random();

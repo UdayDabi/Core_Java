@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class FindSumOfNoDivideBySeven {
 
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		int sum = 0;

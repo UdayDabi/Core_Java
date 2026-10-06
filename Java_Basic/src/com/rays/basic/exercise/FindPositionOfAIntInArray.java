@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class FindPositionOfAIntInArray {
 
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		int[] arr = { 18, 17, 16, 14, 14, 5, 6, 7, 8 };

@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class SmallestNo {
 
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		int i = 15;

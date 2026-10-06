@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class TwoDArrayTable {
 	
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		int[][] table = new int[10][10];

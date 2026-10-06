@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class GenerateTriangle {
 
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		for (int i = 1; i <= 4; i++) {

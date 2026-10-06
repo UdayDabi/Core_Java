@@ -2,7 +2,7 @@ package com.rays.basic.exercise;
 
 public class PrimeNo {
 
-	// anshul
+	// Uday Dabi
 	public static void main(String[] args) {
 
 		int no = 7;
